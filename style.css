@@ -31,11 +31,10 @@ div#home{
     text-align: center;
     width: 75%;
     height: 500px;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 div#home h3{
     width: 50%;
-    margin: auto;
 }
 div#imagem{
     display: flex;
@@ -43,8 +42,12 @@ div#imagem{
 
 }
 div#mensagem{
-    margin: auto 0;
+    margin: auto 20px;
     margin-left: 50px;
+}
+#mensagem h3{
+    display: inline;
+    margin: 20px;
 }
 img#eu{
     margin-left: 0;
