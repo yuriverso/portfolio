@@ -1,0 +1,222 @@
+@font-face {
+    font-family: "prompt";
+    src: url(res/Prompt.ttf) format('truetype');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    font-family: "prompt";
+}
+header{
+    height: 130px;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 1px 1px 2px rgba(114, 114, 114, 0.288);
+    display: block;
+}
+header img{
+    margin: 10px auto;
+    opacity: 0;
+}
+main{
+    /* border: 2px solid purple; */
+    width: 100%;
+    margin: 10px auto 0px auto;
+    display: block;
+}
+div#home{
+    text-align: center;
+    width: 75%;
+    height: 500px;
+    margin: 20px auto;
+}
+div#home h3{
+    width: 50%;
+    margin: auto;
+}
+div#imagem{
+    display: flex;
+    width: 100%;
+
+}
+div#mensagem{
+    margin: auto 0;
+    margin-left: 50px;
+}
+img#eu{
+    margin-left: 0;
+}
+div#about-buttons{
+    margin: 25px auto 0px auto;
+    
+}
+div#about-buttons h2{
+    display: inline;
+    border: 2px solid rgb(15, 15, 15);
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+div#about-buttons a{
+    text-decoration: none;
+    color: black;
+}
+div#sobre{
+    height: 650px;
+    display: flex;
+}
+div#caracteristicas{
+    width: 50%;
+    border-right: 1px solid rgb(15, 15, 15);
+    margin: 20px 0px 20px 150px;
+    padding: 100px 0px;
+    text-align: center;
+}
+div#caracteristicas h2{
+    border-top: 1px solid rgb(15, 15, 15);
+    border-bottom: 1px solid rgb(15, 15, 15);
+    width: 70%;
+}
+div#caracteristicas h3{
+    margin: 0px;
+}
+div#caracteristicas p{
+    margin-bottom: 20px;
+}
+div#habilidades{
+    width: 50%;
+    border-left: 1px solid rgb(15, 15, 15);
+    margin: 20px 150px 20px 0px;
+    padding: 100px 0px;
+    text-align: center;
+}
+div#habilidades h2{
+    border-top: 1px solid rgb(15, 15, 15);
+    border-bottom: 1px solid rgb(15, 15, 15);
+    width: 70%;
+}
+div#projetos{
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgb(15, 15, 15);
+    color: rgb(224, 224, 224);
+    padding-bottom: 50px;
+}
+div#intro-projetos{
+    margin: 70px;
+}
+div#intro-projetos h2{
+    margin: 100px auto 30px auto;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.075);
+}
+
+section{
+    color: rgb(224, 224, 224);
+    /* border: 2px solid orange; */
+    display: inline-flex;
+    margin: 10px auto;
+    background-color: rgb(15, 15, 15);
+
+}
+.projeto{
+    display: flex;
+    width: 70%;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.075);
+    margin: 40px auto;
+    padding: 10px 0px;
+}
+.projeto h3{
+    margin: 0;
+    color: rgba(224, 224, 224, 0.418);
+}
+section > article{
+    text-align: center;
+    display: inline-block;
+    width: 70%;
+}
+section > img{
+    margin: auto;
+
+}
+article > h3, p{
+    margin: 0px;
+}
+article > h4{
+    margin: 0px 0px 10px 0px;
+}
+footer{
+    margin: 0;
+    height: 150px;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 1px 1px 2px rgba(114, 114, 114, 0.288);
+    border-top: 1px solid rgba(224, 224, 224, 0.075);
+}
+footer p{
+    color: rgb(224, 224, 224);
+    margin-top: 60px;
+}
+h2{
+    margin: auto;
+    /* user-select: none; */
+}
+
+
+.pImage{
+   /*  position: relative; */
+    right: 0px;
+}
+.descriptionHolder{
+    width: 50%;
+    margin: auto;
+}
+.pTitle{
+    text-align: center;
+    color: rgb(224, 224, 224);
+}
+.click-me{
+    text-align: center;
+    margin-top: 5px;
+    color: rgba(224, 224, 224, 0.199);
+}
+.contact{
+    display: inline-flex;
+    margin: 0px;
+    width: 80%;
+
+}
+
+div.contact img{
+    margin: auto 0;
+
+}
+div.contact p{
+    margin: auto 10px;
+    color: white;
+}
+.social{
+    margin: auto;
+}
+.social img{
+    margin: 10px;
+}
+h1{
+    margin: auto;
+}
+div#overlay{
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    top: 130px;
+    height: 81%;
+    position: absolute;
+    color: rgb(224, 224, 224);
+}
+#overlay img{
+    margin: 30px auto 0px auto;
+}
+#overlay p{
+    color: rgba(224, 224, 224, 0.342);
+    margin-top: 50px;
+}

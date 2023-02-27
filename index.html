@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
+    <title>Yuri Kruk - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="res/logo.png" alt="header-logo" width="130" id="header-img">
+    </header>
+    <div id="overlay" onclick="openOverlay()">
+        <img src="res/logo.png" alt="overlay-img" id="overlay-img" width="300">
+        <h1>Yuri Kruk</h1>
+        <h2>Back-End Developer</h2>
+        <p>Click</p>
+    </div>
+    <main>
+            
+        <div id="home">
+            <div id="imagem">
+                <div id="mensagem">
+                    <h1>Welcome to Yuriverso!</h2>
+                    <h3>Como desenvolvedor back-end, procuro caminhos inteligentes e criativos para solucionar problemas e entregar resultados.</h3>
+                </div>
+                <img src="res/eu.png" alt="eu" width="250" id="eu">
+                
+            </div>
+            <div id="about-buttons">
+                <a href="#sobre">
+                    <h2>Sobre</h2>
+                </a>
+                <a href="#projetos">
+                    <h2>Projetos</h2>
+                </a>
+            </div>
+        </div>
+        <div id="sobre">
+            <div id="caracteristicas">
+                <h2>PERFIL</h2>
+                <p>Tecnologia, esportes e Rock 'n' Roll</p>
+                <h3>NOME</h3>
+                <p>Yuri Kruk</p>
+                <h3>NASCIMENTO</h3>
+                <p>11/08/1997</p>
+                <h3>CARGO</h3>
+                <p>Back-end developer</p>
+                <h3>WEBSITE</h3>
+                <p>Este mesmo</p>
+                <h3>EMAIL</h3>
+                <p>yuri.kruk@hotmail.com</p>
+
+            </div>
+            <div id="habilidades">
+                <h2>HARD SKILLS</h2>
+                <p>Java</p>
+                <p>Spring Boot</p>
+                <p>SQL</p>
+                <p>React.js</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>Python</p>
+                <br>
+                <h2>SOFT SKILLS</h2>
+                <p>Comunicação</p>
+                <p>Pensamento Crítico</p>
+                <p>Perseverança</p>
+                <p>Inteligência Emocional</p>
+                <p>Autodidatismo</p>
+            </div>
+        </div>
+
+        <div id="projetos">
+            <div id="intro-projetos">
+                <h2>PROJETOS</h2>
+            </div>
+            <section class="projeto" id="projeto5" onclick="openP5()">
+                <div class="descriptionHolder" id="descHolder5">
+                    <div id="titulo5">
+                        <h2 class="pTitle" >Projeto Marceneiro</h2>
+                        <h3>Java | Spring Boot | React | MySQL</h3>
+                        <p class="click-me">click</p>
+                    </div>
+                </div>
+                <img src="res/marceneiro.png" alt="borda" height="190">
+            </section>
+            <section class="projeto" id="projeto4" onclick="openP4()">
+                <img src="res/reper.png" alt="hommer" height="190">
+                <div class="descriptionHolder" id="descHolder4">
+                    <div id="titulo4">
+                        <h2 class="pTitle" >Projeto Reper</h2>
+                        <h3>Java | MySQL</h3>
+                        <p class="click-me">click</p>
+                    </div>
+                </div>
+            </section>
+            <section class="projeto" id="projeto3" onclick="openP3()">
+                <div class="descriptionHolder" id="descHolder3">
+                    <div id="titulo3">
+                        <h2 class="pTitle" >Projeto Vita</h2>
+                        <h3>HTML | CSS | JavaScript</h3>
+                        <p class="click-me">click</p>
+                    </div>
+                </div>
+                <img src="res/vita.png" alt="hommer" class="pImage" height="190">
+            </section>
+            <section class="projeto" id="projeto2" onclick="openP2()">
+                <img src="res/lacobrita.png" alt="borda" height="190" >
+                <div class="descriptionHolder" id="descHolder2">
+                    <div id="titulo2">
+                        <h2 class="pTitle" >La Cobrita</h2>
+                        <h3>Java | MySQL</h3>
+                        <p class="click-me">click</p>
+                    </div>
+                </div>
+            </section>
+            <section class="projeto" id="projeto1" onclick="openP1()">
+                <div class="descriptionHolder" id="descHolder1">
+                    <div id="titulo1">
+                        <h2 class="pTitle" >Calcio Calculator</h2>
+                        <h3>Java</h3>
+                        <p class="click-me">click</p>
+                    </div>
+                </div>
+                <img src="res/calcio.png" alt="borda" height="190" >
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Design by <strong>Yuri Kruk</strong></p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/yuri-kruk-427b14231/"><img src="res/linkedin_icon.png" alt="linkedin_icon" width="30"></a>
+            <a href="https://github.com/yuriverso"><img src="res/github_icon.png" alt="github_icon" width="30"></a>
+            <a href="https://www.instagram.com/yurikruk/"><img src="res/instagram_icon.png" alt="instagram_icon" width="30"></a>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
