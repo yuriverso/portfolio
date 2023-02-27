@@ -23,7 +23,6 @@ header img{
     opacity: 0;
 }
 main{
-    /* border: 2px solid purple; */
     width: 100%;
     margin: 10px auto 0px auto;
     display: block;
@@ -58,8 +57,7 @@ div#about-buttons h2{
     display: inline;
     border: 2px solid rgb(15, 15, 15);
     margin: 20px;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 2px 5px;
 }
 div#about-buttons a{
     text-decoration: none;
@@ -115,7 +113,6 @@ div#intro-projetos h2{
 
 section{
     color: rgb(224, 224, 224);
-    /* border: 2px solid orange; */
     display: inline-flex;
     margin: 10px auto;
     background-color: rgb(15, 15, 15);
@@ -160,12 +157,8 @@ footer p{
 }
 h2{
     margin: auto;
-    /* user-select: none; */
 }
-
-
 .pImage{
-   /*  position: relative; */
     right: 0px;
 }
 .descriptionHolder{
