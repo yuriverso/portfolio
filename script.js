@@ -11,6 +11,7 @@ class Project{
 
         this.link = document.createElement("a")
         this.link.href = gitLink
+        this.link.target = "_blank"
         this.link.innerHTML = gitLink
         this.link.style.opacity = "0"
 
