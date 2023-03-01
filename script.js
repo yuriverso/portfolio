@@ -25,7 +25,7 @@ class Project{
                 }
                 setTimeout(() => {
                     this.p.style.transition = "0.5s"
-                    this.p.style.width = "70%"
+                    this.p.style.width = "900px"
                     this.p.style.backgroundColor = "rgb(15, 15, 15)"
                     this.title.style.transition = "0.5s"
                     this.title.style.color = "rgb(224, 224, 224)"
@@ -50,7 +50,7 @@ class Project{
     openProject(){
         if(!this.pState){
             this.p.style.transition = "0.5s"
-            this.p.style.width = "95%"
+            this.p.style.width = "1200px"
             this.p.style.backgroundColor = "rgb(224, 224, 224)"
             this.title.style.transition = "0.5s"
             this.title.style.color = "rgb(224, 224, 224)"
