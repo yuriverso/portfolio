@@ -86,6 +86,10 @@ marceneiroDesc = "Catálogo de móveis com Spring Boot e React. Aplicação web 
 marceneiroLink = "https://github.com/yuriverso/Marceneiro"
 const project5 = new Project("5", marceneiroDesc, marceneiroLink)
 
+securityDesc = "Projeto criado para praticar e estudar os conceitos e aplicações do Spring Security, tal como entender seu fluxo de funcionamento e meios de implementá-lo em um sistema."
+securityLink = "https://github.com/yuriverso/SpringSecurityPractice"
+const project6 = new Project("6", securityDesc, securityLink)
+
 function openP1(){
     project1.openProject()
 }
@@ -100,6 +104,9 @@ function openP4(){
 }
 function openP5(){
     project5.openProject()
+}
+function openP6(){
+    project6.openProject()
 }
 
 function openOverlay(){
